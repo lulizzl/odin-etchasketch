@@ -1,0 +1,22 @@
+div {
+    display: flex;
+    height: 6.25%;
+    aspect-ratio: 1/1;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    flex-shrink: 1;
+    height: 80%;
+    width: 80%;
+}
+
+.hover {
+    background-color: rgb(120, 120, 155);
+}
+
+button {
+    flex: 0 0 100%;
+    margin: 20px
+}
